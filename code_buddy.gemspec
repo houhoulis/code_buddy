@@ -20,8 +20,8 @@ Gem::Specification.new do |s|
   s.require_paths = ["lib"]
 
   s.add_dependency             'rack'
-  s.add_dependency             'sinatra',       '~> 1.1'
-  s.add_dependency             'json_pure',     '~> 1'
+  s.add_dependency             'sinatra',       '~> 1.1.0'
+  s.add_dependency             'json_pure',     '~> 1.0'
   s.add_dependency             'coderay',       '~> 0.9'
   s.add_dependency             'daemons'
   s.add_dependency             'launchy'
